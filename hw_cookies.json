@@ -1,7 +1,7 @@
 [
   {
     "name": "CASTGC",
-    "value": "TGT-21975-rBVYliciaLNdJUua2vLpVrB2vLnRtpac2LcdQapibCibgogJZeHg-cas-1bsEXT6BYDddwzMA0F2nJmmoItliauly",
+    "value": "TGT-23468-F96sAAe6BnZ85VreoGdkAmUN9CUW1dHic5TfgFczzRcbnY4CHrbc-cas-1ocDTJibwzjcQibdcSVQwDdXQS3orBXd",
     "domain": ".id1.cloud.huawei.com",
     "path": "/UnifiedIDMPortal",
     "expires": -1,
@@ -11,7 +11,7 @@
   },
   {
     "name": "JSESSIONID",
-    "value": "A0016693E51E96CD48A14BE9F121E4BB845B5F6D2E2F217C",
+    "value": "67CFCAD5E3D1D26EC03CCECA0D3C51626BB93C311D9DCEA3",
     "domain": "id1.cloud.huawei.com",
     "path": "/DimensionalCode",
     "expires": -1,
@@ -21,7 +21,7 @@
   },
   {
     "name": "qRCode",
-    "value": "QrCode_qzBK9dKqdicHpq6Oe2AeRYOOgC2lPzzY",
+    "value": "QrCode_nicbwcZ9FdytYzuhfsYpWLACNOeTdKJi",
     "domain": "id1.cloud.huawei.com",
     "path": "/DimensionalCode",
     "expires": -1,
@@ -31,7 +31,7 @@
   },
   {
     "name": "qrCodeCreateTime",
-    "value": "1764827917839",
+    "value": "1764833259460",
     "domain": "id1.cloud.huawei.com",
     "path": "/DimensionalCode",
     "expires": -1,
@@ -41,7 +41,7 @@
   },
   {
     "name": "expiredTime",
-    "value": "1764828098839",
+    "value": "1764833440460",
     "domain": "id1.cloud.huawei.com",
     "path": "/DimensionalCode",
     "expires": -1,
@@ -61,7 +61,7 @@
   },
   {
     "name": "CASTGC",
-    "value": "TGT-21975-rBVYliciaLNdJUua2vLpVrB2vLnRtpac2LcdQapibCibgogJZeHg-cas-1bsEXT6BYDddwzMA0F2nJmmoItliauly",
+    "value": "TGT-23468-F96sAAe6BnZ85VreoGdkAmUN9CUW1dHic5TfgFczzRcbnY4CHrbc-cas-1ocDTJibwzjcQibdcSVQwDdXQS3orBXd",
     "domain": ".id1.cloud.huawei.com",
     "path": "/CAS",
     "expires": -1,
@@ -71,7 +71,7 @@
   },
   {
     "name": "JSESSIONID",
-    "value": "C8541FBC02CE925B9AED44536FF8C695C0FD16E5777A88342EEFE3A1A9C847E489844169601B58C470E36BD655AA3AE6",
+    "value": "04B64ED960A9EEF44488B72CF56F80BE162F174C4A732A675118A929C36FA3C781DE8856ECD2EA9A5CD9AEBC2AC8EA1C",
     "domain": "id1.cloud.huawei.com",
     "path": "/CAS",
     "expires": -1,
@@ -81,7 +81,7 @@
   },
   {
     "name": "HWWAFSESTIME",
-    "value": "1764827900443",
+    "value": "1764833241937",
     "domain": "www.vmall.com",
     "path": "/",
     "expires": -1,
@@ -91,7 +91,7 @@
   },
   {
     "name": "HWWAFSESID",
-    "value": "bb42324d94ff0082c6f",
+    "value": "f143f29eb4132206cad",
     "domain": "www.vmall.com",
     "path": "/",
     "expires": -1,
@@ -120,8 +120,8 @@
     "sameSite": "Lax"
   },
   {
-    "name": "HWWAFSESID",
-    "value": "40060181d2499072ad6",
+    "name": "HWWAFSESTIME",
+    "value": "1764833244497",
     "domain": "openapi.vmall.com",
     "path": "/",
     "expires": -1,
@@ -130,8 +130,8 @@
     "sameSite": "Lax"
   },
   {
-    "name": "HWWAFSESTIME",
-    "value": "1764827904656",
+    "name": "HWWAFSESID",
+    "value": "a4dfb3c4a55f770ef4c",
     "domain": "openapi.vmall.com",
     "path": "/",
     "expires": -1,
@@ -144,44 +144,44 @@
     "value": "true",
     "domain": ".vmall.com",
     "path": "/",
-    "expires": 1764864025,
+    "expires": 1764864027,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "deviceid",
-    "value": "b3ef6edf80200848f48a5ed8e8231b6b",
+    "value": "98799a11b3eb3b466fb80acbe08807c0",
     "domain": ".vmall.com",
     "path": "/",
-    "expires": 1799387905.32098,
+    "expires": 1799393247.309707,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "TID",
-    "value": "b3ef6edf80200848f48a5ed8e8231b6b",
+    "value": "98799a11b3eb3b466fb80acbe08807c0",
     "domain": ".vmall.com",
     "path": "/",
-    "expires": 1799387905.321211,
+    "expires": 1799393247.309805,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "cartId",
-    "value": "2f94bf94ada9499a9810bd43c25169b5",
+    "value": "90b5f0e1aecb45948f0c0437f2aac4e0",
     "domain": ".vmall.com",
     "path": "/",
-    "expires": 1764863905.744803,
+    "expires": 1764869247.726028,
     "httpOnly": false,
     "secure": true,
     "sameSite": "Lax"
   },
   {
     "name": "HWWAFSESTIME",
-    "value": "1764827905801",
+    "value": "1764833243924",
     "domain": "dap.vmall.com",
     "path": "/",
     "expires": -1,
@@ -191,7 +191,7 @@
   },
   {
     "name": "HWWAFSESID",
-    "value": "bb6b9e58673b04b6c8",
+    "value": "bb2d62f5a321e751168",
     "domain": "dap.vmall.com",
     "path": "/",
     "expires": -1,
@@ -224,17 +224,17 @@
     "value": "true",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1767419915,
+    "expires": 1767425256,
     "httpOnly": false,
     "secure": true,
     "sameSite": "Lax"
   },
   {
     "name": "HW_refts_id1_cloud_huawei_com_id1_cloud_huawei_com",
-    "value": "1764827916743",
+    "value": "1764833258298",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1780379916,
+    "expires": 1780385258,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
@@ -244,57 +244,57 @@
     "value": "1",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1796363916,
+    "expires": 1796369258,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "HW_id_id1_cloud_huawei_com_id1_cloud_huawei_com",
-    "value": "4c84fa5fc19e47f18015bca482d0cdd8",
+    "value": "6a9675e3552148a38b04042442674775",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1796363916,
+    "expires": 1796369258,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "HW_idts_id1_cloud_huawei_com_id1_cloud_huawei_com",
-    "value": "1764827916744",
+    "value": "1764833258298",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1796363916,
+    "expires": 1796369258,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "HW_idn_id1_cloud_huawei_com_id1_cloud_huawei_com",
-    "value": "a2e9693d58c446198b64abdb8807c646",
+    "value": "4edcc8c55aa74282afd941cdba42cae9",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1764829716,
+    "expires": 1764835059,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "hwid_cas_sid",
-    "value": "204936d53756def87370c057b6f301f7f59c169b78caff9f95b51b5beaa70ac0a7f208a391e637d93737",
+    "value": "204937c536ea69a2ce2b30624d92f35271a13e07c9d4aa8ee00366d10373e17027ee10264b4a381a37a0",
     "domain": ".id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1799387916.904628,
+    "expires": 1799393258.436219,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "sid",
-    "value": "204936d53756def87370c057b6f301f7f59c169b78caff9f95b51b5beaa70ac0a7f208a391e637d93737",
+    "value": "204937c536ea69a2ce2b30624d92f35271a13e07c9d4aa8ee00366d10373e17027ee10264b4a381a37a0",
     "domain": ".id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1799387916.904746,
+    "expires": 1799393258.436802,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
@@ -331,17 +331,17 @@
   },
   {
     "name": "HW_viewts_id1_cloud_huawei_com_id1_cloud_huawei_com",
-    "value": "1764827923297",
+    "value": "1764833263328",
     "domain": "id1.cloud.huawei.com",
     "path": "/",
-    "expires": 1796363923,
+    "expires": 1796369263,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "euid",
-    "value": "cfde4363dd7fe42cf2e07f043a918e7200069bb21da6e6c0",
+    "value": "c67df030911b7489ed55d76cd164da3162b1626d6f923e54",
     "domain": ".vmall.com",
     "path": "/",
     "expires": -1,
@@ -351,7 +351,7 @@
   },
   {
     "name": "CSRF-TOKEN",
-    "value": "5F82C7ADA97BD2EF552C7015E44270119E182E1F901D58148AD66D3E69B4371A",
+    "value": "4F4D6F3BC18D83F3D800C78FF0923BD0628396B02A144E46EC5B93AE9BFA9D8D",
     "domain": ".vmall.com",
     "path": "/",
     "expires": -1,

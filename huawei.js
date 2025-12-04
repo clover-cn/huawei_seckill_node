@@ -17,6 +17,7 @@ export class HuaWei {
     this.isStartBuying = false;
     this.isCanSubmitOrder = false;
     this.isBuyNow = false;
+    this.needRetryWaiting = false;
     this.secKillTime = null;
     this.msDiff = 0;
     this.profilePath = profilePath;
@@ -50,11 +51,26 @@ export class HuaWei {
     if (this.isLogin) {
       await this.visitProductPage();
       await this.chooseProduct();
-      await this.waitingCount();
-      await this.countdown();
-      await this.startBuying();
+      while (true) {
+        await this.waitingCount();
+        await this.countdown();
+        await this.startBuying();
+        if (!this.needRetryWaiting) break;
+        logger.info("准备等待下一轮抢购...");
+        this.resetForNextRound();
+        await this.page.reload();
+        await this.chooseProduct();
+      }
       await this.buyNow();
     }
+  }
+
+  resetForNextRound() {
+    this.isWaiting = true;
+    this.isCountdown = true;
+    this.isStartBuying = false;
+    this.needRetryWaiting = false;
+    this.secKillTime = null;
   }
 
   async stopProcess() {
@@ -266,9 +282,10 @@ export class HuaWei {
       const frameLocator = this.page.frameLocator('iframe[src*="queue.html"]');
       const text = await frameLocator.locator(".queue-tips p:not(.hide)").textContent({ timeout: 3000 }).catch(() => "");
       if (text?.includes("活动暂未开始")) {
-        logger.warn("活动暂未开始，感谢您的参与。");
-        process.exit(1);
-        // await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
+        logger.warn("活动暂未开始，等待下一轮抢购");
+        await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
+        this.isStartBuying = false;
+        this.needRetryWaiting = true;
       }
     } catch {
       /* ignore */
@@ -281,10 +298,10 @@ export class HuaWei {
       const text = await frameLocator.locator(".queue-tips p:not(.hide)").textContent({ timeout: 3000 }).catch(() => "");
 
       if (text?.includes("抱歉，已售完")) {
-        logger.warn("抱歉，已售完");
-        process.exit(1);
-        // await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
-        // this.isStartBuying = true;
+        logger.warn("抱歉，已售完，等待下一轮抢购");
+        await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
+        this.isStartBuying = false;
+        this.needRetryWaiting = true;
       }
     } catch {
       /* ignore */
