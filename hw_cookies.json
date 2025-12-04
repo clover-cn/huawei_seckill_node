@@ -1,0 +1,592 @@
+[
+  {
+    "name": "CASTGC",
+    "value": "TGT-21975-rBVYliciaLNdJUua2vLpVrB2vLnRtpac2LcdQapibCibgogJZeHg-cas-1bsEXT6BYDddwzMA0F2nJmmoItliauly",
+    "domain": ".id1.cloud.huawei.com",
+    "path": "/UnifiedIDMPortal",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "JSESSIONID",
+    "value": "A0016693E51E96CD48A14BE9F121E4BB845B5F6D2E2F217C",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/DimensionalCode",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "qRCode",
+    "value": "QrCode_qzBK9dKqdicHpq6Oe2AeRYOOgC2lPzzY",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/DimensionalCode",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "qrCodeCreateTime",
+    "value": "1764827917839",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/DimensionalCode",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "expiredTime",
+    "value": "1764828098839",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/DimensionalCode",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "cversion",
+    "value": "40200",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/DimensionalCode",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CASTGC",
+    "value": "TGT-21975-rBVYliciaLNdJUua2vLpVrB2vLnRtpac2LcdQapibCibgogJZeHg-cas-1bsEXT6BYDddwzMA0F2nJmmoItliauly",
+    "domain": ".id1.cloud.huawei.com",
+    "path": "/CAS",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "JSESSIONID",
+    "value": "C8541FBC02CE925B9AED44536FF8C695C0FD16E5777A88342EEFE3A1A9C847E489844169601B58C470E36BD655AA3AE6",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/CAS",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "HWWAFSESTIME",
+    "value": "1764827900443",
+    "domain": "www.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESID",
+    "value": "bb42324d94ff0082c6f",
+    "domain": "www.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "perIdb",
+    "value": "401001097",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "callAB",
+    "value": "1",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESID",
+    "value": "40060181d2499072ad6",
+    "domain": "openapi.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESTIME",
+    "value": "1764827904656",
+    "domain": "openapi.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "showAds",
+    "value": "true",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": 1764864025,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "deviceid",
+    "value": "b3ef6edf80200848f48a5ed8e8231b6b",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": 1799387905.32098,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "TID",
+    "value": "b3ef6edf80200848f48a5ed8e8231b6b",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": 1799387905.321211,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "cartId",
+    "value": "2f94bf94ada9499a9810bd43c25169b5",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": 1764863905.744803,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESTIME",
+    "value": "1764827905801",
+    "domain": "dap.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESID",
+    "value": "bb6b9e58673b04b6c8",
+    "domain": "dap.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CAS_THEME_NAME",
+    "value": "red",
+    "domain": ".id1.cloud.huawei.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VERSION_NO",
+    "value": "UP_CAS_6.24.0.100_blue",
+    "domain": ".id1.cloud.huawei.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "cookieBannerOnOff",
+    "value": "true",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1767419915,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HW_refts_id1_cloud_huawei_com_id1_cloud_huawei_com",
+    "value": "1764827916743",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1780379916,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HW_idvc_id1_cloud_huawei_com_id1_cloud_huawei_com",
+    "value": "1",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1796363916,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HW_id_id1_cloud_huawei_com_id1_cloud_huawei_com",
+    "value": "4c84fa5fc19e47f18015bca482d0cdd8",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1796363916,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HW_idts_id1_cloud_huawei_com_id1_cloud_huawei_com",
+    "value": "1764827916744",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1796363916,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HW_idn_id1_cloud_huawei_com_id1_cloud_huawei_com",
+    "value": "a2e9693d58c446198b64abdb8807c646",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1764829716,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "hwid_cas_sid",
+    "value": "204936d53756def87370c057b6f301f7f59c169b78caff9f95b51b5beaa70ac0a7f208a391e637d93737",
+    "domain": ".id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1799387916.904628,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sid",
+    "value": "204936d53756def87370c057b6f301f7f59c169b78caff9f95b51b5beaa70ac0a7f208a391e637d93737",
+    "domain": ".id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1799387916.904746,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CASLOGINSITE",
+    "value": "1",
+    "domain": ".huawei.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "LOGINACCSITE",
+    "value": "1",
+    "domain": ".huawei.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "HuaweiID_CAS_ISCASLOGIN",
+    "value": "true",
+    "domain": ".huawei.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "HW_viewts_id1_cloud_huawei_com_id1_cloud_huawei_com",
+    "value": "1764827923297",
+    "domain": "id1.cloud.huawei.com",
+    "path": "/",
+    "expires": 1796363923,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "euid",
+    "value": "cfde4363dd7fe42cf2e07f043a918e7200069bb21da6e6c0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CSRF-TOKEN",
+    "value": "5F82C7ADA97BD2EF552C7015E44270119E182E1F901D58148AD66D3E69B4371A",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "hasSigned",
+    "value": "0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "isFirstLogin",
+    "value": "0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "aliToken",
+    "value": "\"\"",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "isGroupUser",
+    "value": "false",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ageGroupFlag",
+    "value": "0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "optBanding",
+    "value": "0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "weChatInfo",
+    "value": "false",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_loNa",
+    "value": "187****6206",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_lel",
+    "value": "\"boy***@qq.com\"",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_lmi",
+    "value": "187****6206",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_lus",
+    "value": "1",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_lgc",
+    "value": "0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_ltp",
+    "value": "1",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_li",
+    "value": "true",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "isVpro",
+    "value": "0",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ac_cp",
+    "value": "1500721829297|1500721912154|1599634375481",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "uid",
+    "value": "260086000072824058",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "user",
+    "value": "187****6206",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "hasmail",
+    "value": "1",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "hasphone",
+    "value": "1",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "displayName",
+    "value": "C*****",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "recommendflag",
+    "value": "1",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "grouptags",
+    "value": "101805|104586|105089|105207|105283|105637|106054|106181|106603|107414|107415|107417|107418|107448|90087|99211|94266|99193|99224|95264",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

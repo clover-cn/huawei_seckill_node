@@ -1,0 +1,15 @@
+{
+  "name": "hw-seckill-nodejs",
+  "version": "1.0.0",
+  "description": "华为商城抢购脚本 Node.js 版本",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "ini": "^4.1.1",
+    "playwright": "^1.40.0",
+    "winston": "^3.11.0"
+  }
+}
