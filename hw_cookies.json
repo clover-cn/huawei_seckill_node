@@ -80,26 +80,6 @@
     "sameSite": "None"
   },
   {
-    "name": "HWWAFSESTIME",
-    "value": "1764833241937",
-    "domain": "www.vmall.com",
-    "path": "/",
-    "expires": -1,
-    "httpOnly": false,
-    "secure": false,
-    "sameSite": "Lax"
-  },
-  {
-    "name": "HWWAFSESID",
-    "value": "f143f29eb4132206cad",
-    "domain": "www.vmall.com",
-    "path": "/",
-    "expires": -1,
-    "httpOnly": false,
-    "secure": false,
-    "sameSite": "Lax"
-  },
-  {
     "name": "perIdb",
     "value": "401001097",
     "domain": ".vmall.com",
@@ -113,6 +93,36 @@
     "name": "callAB",
     "value": "1",
     "domain": ".vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "showAds",
+    "value": "true",
+    "domain": ".vmall.com",
+    "path": "/",
+    "expires": 1764864027,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESTIME",
+    "value": "1764833241937",
+    "domain": "www.vmall.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HWWAFSESID",
+    "value": "f143f29eb4132206cad",
+    "domain": "www.vmall.com",
     "path": "/",
     "expires": -1,
     "httpOnly": false,
@@ -135,16 +145,6 @@
     "domain": "openapi.vmall.com",
     "path": "/",
     "expires": -1,
-    "httpOnly": false,
-    "secure": false,
-    "sameSite": "Lax"
-  },
-  {
-    "name": "showAds",
-    "value": "true",
-    "domain": ".vmall.com",
-    "path": "/",
-    "expires": 1764864027,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"

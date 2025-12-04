@@ -88,6 +88,8 @@ export class HuaWei {
 
   async login() {
     logger.info("开始登录华为账号");
+    // 先尝试加载本地 cookies
+    await this.loadCookiesIfExists();
     this.isLogin = await this.checkIsLoggedIn();
     if (!this.isLogin) {
       await this.gotoLoginPage();
@@ -471,6 +473,15 @@ export class HuaWei {
     } else {
       logger.warn("未读取到 Cookie 数据");
       process.exit(1);
+    }
+  }
+
+  async loadCookiesIfExists() {
+    const cookies = readCookies();
+    if (cookies) {
+      logger.info("检测到本地 cookies，尝试使用...");
+      await this.context.addCookies(cookies);
+      await this.page.reload();
     }
   }
 
