@@ -300,10 +300,16 @@ export class HuaWei {
   async checkBoxCtPopActIsStarted() {
     try {
       const frameLocator = this.page.frameLocator('iframe[src*="queue.html"]');
-      const text = await frameLocator.locator(".queue-tips p:not(.hide)").textContent({ timeout: 3000 }).catch(() => "");
+      const text = await frameLocator
+        .locator(".queue-tips p:not(.hide)")
+        .textContent({ timeout: 500 })
+        .catch(() => "");
       if (text?.includes("活动暂未开始")) {
         logger.warn("活动暂未开始，等待下一轮抢购");
-        await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
+        await frameLocator
+          .locator(".queue-btn .btn-cancel")
+          .click()
+          .catch(() => {});
         this.isStartBuying = false;
         this.needRetryWaiting = true;
       }
@@ -315,10 +321,16 @@ export class HuaWei {
   async checkBoxCtPopProductIsNotBuy() {
     try {
       const frameLocator = this.page.frameLocator('iframe[src*="queue.html"]');
-      const text = await frameLocator.locator(".queue-tips p:not(.hide)").textContent({ timeout: 3000 }).catch(() => "");
+      const text = await frameLocator
+        .locator(".queue-tips p:not(.hide)")
+        .textContent({ timeout: 500 })
+        .catch(() => "");
       if (text?.includes("此商品已售完")) {
         logger.warn("此商品已售完，等待下一轮抢购");
-        await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
+        await frameLocator
+          .locator(".queue-btn .btn-cancel")
+          .click()
+          .catch(() => {});
         this.isStartBuying = false;
         this.needRetryWaiting = true;
       }
@@ -350,22 +362,28 @@ export class HuaWei {
         return false;
       }
       logger.info("结束检查是否出现排队弹窗，结果：是");
-      
+
       const frameLocator = this.page.frameLocator('iframe[src*="queue.html"]');
-      const tipText = await frameLocator.locator(".queue-tips").textContent({ timeout: 3000 }).catch(() => "");
-      console.log('排队检测',tipText);
-      logger.warn(`排队检测${tipText}`);
+      const tipText = await frameLocator
+        .locator(".queue-tips")
+        .textContent({ timeout: 3000 })
+        .catch(() => "");
       for (const tipMsg of constants.TIP_MSGS) {
         if (tipText.includes(tipMsg)) {
           if (tipMsg === "排队中") {
             logger.warn(`排队状态：${tipMsg}`);
           } else if (tipMsg === "当前排队人数过多，是否继续排队等待？") {
             logger.warn(`排队状态：${tipMsg}`);
-            await frameLocator.locator(".queue-btn .btn-ok").click().catch(() => {});
+            await frameLocator
+              .locator(".queue-btn .btn-ok")
+              .click()
+              .catch(() => {});
           } else {
-            logger.warn(`当前提醒内容：${tipText}`);
+            logger.warn(`当前提醒内容：${tipMsg}`);
           }
           break;
+        } else {
+          logger.warn(`未索引字典的提醒内容：${tipText}`);
         }
       }
       return true;
