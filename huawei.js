@@ -89,13 +89,20 @@ export class HuaWei {
   async login() {
     logger.info("开始登录华为账号");
     // 先尝试加载本地 cookies
-    await this.loadCookiesIfExists();
-    this.isLogin = await this.checkIsLoggedIn();
-    if (!this.isLogin) {
+    const hasCookies = await this.loadCookiesIfExists();
+    if (hasCookies) {
+      // 检查页面上是否还有"请登录"链接
+      const needLogin = await this.hasLoginLink();
+      if (needLogin) {
+        logger.info("本地 cookies 已失效，需要重新登录");
+        await this.gotoLoginPage();
+        await this.doLogin();
+      }
+    } else {
       await this.gotoLoginPage();
       await this.doLogin();
-      this.isLogin = await this.checkIsLoggedIn();
     }
+    this.isLogin = await this.checkIsLoggedIn();
     if (!this.isLogin) {
       logger.warn("登录华为账号失败，程序将在3秒后退出...");
       await sleep(3000);
@@ -103,6 +110,17 @@ export class HuaWei {
     }
     writeCookies(await this.context.cookies());
     logger.info(`当前登录账号昵称为：${await this.getLoggedNickname()}`);
+  }
+
+  async hasLoginLink() {
+    await sleep(2000);
+    const menuLinks = await this.page.$$(".css-146c3p1.r-1a7l8x0.r-1enofrn.r-ueyrd6.r-is05cd.r-gy4na3");
+    for (const link of menuLinks) {
+      if ((await link.textContent()) === "请登录") {
+        return true;
+      }
+    }
+    return false;
   }
 
   async gotoLoginPage() {
@@ -482,7 +500,9 @@ export class HuaWei {
       logger.info("检测到本地 cookies，尝试使用...");
       await this.context.addCookies(cookies);
       await this.page.reload();
+      return true;
     }
+    return false;
   }
 
   // 关闭浏览器
