@@ -298,9 +298,8 @@ export class HuaWei {
     try {
       const frameLocator = this.page.frameLocator('iframe[src*="queue.html"]');
       const text = await frameLocator.locator(".queue-tips p:not(.hide)").textContent({ timeout: 3000 }).catch(() => "");
-
-      if (text?.includes("抱歉，已售完")) {
-        logger.warn("抱歉，已售完，等待下一轮抢购");
+      if (text?.includes("此商品已售完")) {
+        logger.warn("此商品已售完，等待下一轮抢购");
         await frameLocator.locator(".queue-btn .btn-cancel").click().catch(() => {});
         this.isStartBuying = false;
         this.needRetryWaiting = true;
