@@ -335,7 +335,8 @@ export class HuaWei {
       
       const frameLocator = this.page.frameLocator('iframe[src*="queue.html"]');
       const tipText = await frameLocator.locator(".queue-tips").textContent({ timeout: 3000 }).catch(() => "");
-      
+      console.log('排队检测',tipText);
+      logger.warn(`排队检测${tipText}`);
       for (const tipMsg of constants.TIP_MSGS) {
         if (tipText.includes(tipMsg)) {
           if (tipMsg === "排队中") {
@@ -344,7 +345,7 @@ export class HuaWei {
             logger.warn(`排队状态：${tipMsg}`);
             await frameLocator.locator(".queue-btn .btn-ok").click().catch(() => {});
           } else {
-            logger.warn(`当前提醒内容：${tipMsg}`);
+            logger.warn(`当前提醒内容：${tipText}`);
           }
           break;
         }
